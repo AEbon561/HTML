@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+   <center><h1>Formularios HTML</h1></center><br>
+   <form action="06form.html" method="get" enctype="multipart/form-data"></form>
+<table border whidth="60%">
+    <tr>
+        <td><h3>Campo de texto</h3></td>
+        <td><input type="text" name="nombre" id="nombre" value="" placeholder="escribe tu nombre" maxlength="30"></td>
+    </tr>
+    <tr>
+        <td><h3>Contraseña</h3></td>
+        <td><input type="password" name="contraseña" id="contraseña" value="" placeholder="escribe tu contraseña" maxlength="30"></td>
+    </tr>
+    <tr>
+        <td><h3>verificacion</h3></td>
+        <td><input type="checkbox" name="c" id="c" value="" checked></td>
+    </tr>
+    <tr>
+        <td><h3>opcion</h3></td>
+        <td>
+        <input type="radio" name="color" id="color" value="" checked><br>
+        <input type="radio" name="color" id="color" value=""><br>
+        <input type="radio" name="color" id="color" value="">
+    </td>
+    </tr>
+    <tr>
+        <td><h3>oculto</h3></td>
+        <td>
+        <input type="hidden" name="oculto" id="oculto" value="HTML" >
+        
+    </td>
+    </tr>
+    <tr>
+        <td><h3>enviar</h3></td>
+        <td>
+        <input type="submit" name="enviar" value="Enviar" > 
+    </td>
+</tr>
+<tr>
+    <td><h3>reset</h3></td>
+    <td>
+    <input type="reset" name="reset" value="Borrar" >
+</td>
+</tr>
+</tr>
+<tr>
+    <td><h3>area de texto</h3></td>
+    <td>
+    <textarea  name="area" id="" cols="30" rows="10" ></textarea>
+</td>
+</tr>
+<tr>
+    <td><h3>combobox</h3></td>
+    <td>
+    <select name="" id=""> 
+        <option value="Hollow knigth">Hollow knigth</option>
+        <option value="call of duty">call of duty</option>
+        <option value="tetris" selected>tetris</option>
+    </select>
+</td>
+</tr>
+<tr>
+    <td><h3>fileset</h3></td>
+<td>
+    <fieldset>
+        <legend>Datos</legend>
+        <label for=""></label>
+        <input type="text" required>
+    </fieldset>
+</td>
+</tr>
+<tr>
+    <td><h3>data list</h3></td>
+<td>
+    <input type="text" list="juegos">
+    <datalist id="juegos">
+        <option value="Hollow knigth">Hollow knigth</option>
+        <option value="call of duty">call of duty</option>
+        <option value="tetris" selected>tetris</option>
+    </datalist>
+</td>
+</tr>
+<tr>
+    <td><h3>campo email</h3></td>
+<td>
+    <input type="email">
+</td>
+</tr>
+<tr>
+    <td><h3> campo numerico</h3></td>
+<td>
+    <input type="number">
+</td>
+</tr>
+<tr>
+    <td><h3>campo url</h3></td>
+<td>
+    <input type="url">
+</td>
+</tr>
+<tr>
+    <td><h3>campo fecha</h3></td>
+<td>
+    <input type="date">
+</td>
+</tr>
+<tr>
+    <td><h3>campo fecha y hora</h3></td>
+<td>
+    <input type="datetime">
+</td>
+</tr>
+<tr>
+    <td><h3>campo hora</h3></td>
+<td>
+    <input type="time">
+</td>
+</tr>
+<tr>
+    <td><h3>campo week</h3></td>
+<td>
+    <input type="week">
+</td>
+</tr>
+<tr>
+    <td><h3>campo mes</h3></td>
+<td>
+    <input type="month">
+</td>
+</tr>
+<tr>
+    <td><h3>boton generico</h3></td>
+<td>
+    <button>hola</button>
+</td>
+</tr>
+<tr>
+    <td><h3>barra de progreso</h3></td>
+<td>
+<progress></progress>
+</td>
+</tr>
+<tr>
+    <td><h3>meter</h3></td>
+<td>
+   <meter value="20" max="100"></meter>
+</td>
+</tr>
+<tr>
+    <td><h3>campo rango</h3></td>
+<td>
+    <input type="range" min="0" max="100" value="30">
+</td>
+</tr>
+<tr>
+    <td><h3>campo busqueda</h3></td>
+<td>
+    <input type="search">
+</td>
+</tr>
+<tr>
+    <td><h3>campo telefono</h3></td>
+<td>
+    <input type="tel">
+</td>
+</tr>
+<tr>
+    <td><h3>campo color</h3></td>
+<td>
+    <input type="color">
+</td>
+</tr>
+<tr>
+    <td><h3>campo archivo</h3></td>
+<td>
+    <input type="file">
+</td>
+</tr>
+</table>
+    
+</body>
+</html>
